@@ -1,0 +1,108 @@
+@charset "gb2312";
+/* CSS Document */
+*{ list-style:none;margin:0 auto; padding:0;}
+
+img{ border:0;}
+body{ font-size:14px; color:#454545;line-height:21px;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+
+a{ color:#454545; text-decoration:none;}
+a:hover{color:#f00;text-decoration:underline;}
+
+
+/*logo*/
+.Logo{width:1000px; margin:0 auto; height:104px;}
+
+.Logo .left{margin-top:8px;}
+.Logo .right{ width:262px;}
+
+.Logo .top li{float:right;height:25px;width:70px; text-align:center; line-height:25px;}
+.top li a{width:70px; height:25px; display:block; text-decoration:none;background:#eaeaea; font-size:12px;}
+.top li a:hover{ background:#ccc; color:#06F}
+.bottom{ margin-top:15px;}
+
+
+/*导航*/
+.Nav{ height:36px; background:#3f81ef;}
+.Nav ul{width:1000px; margin:0 auto;}
+.Nav li{float:left;height:36px;text-align:center; line-height:36px; font-size:16px; font-weight:bold;}
+.Nav li a{width:140px; height:36px; display:block; text-decoration:none; color:#fff;}
+.Nav li a:hover{background:#0066FF; color:#ff0}
+.bottom{ margin-top:15px;}
+
+/*焦点图*/
+.focus{position:relative; width:1000px; height:380px; }  
+.focus img{ width: 1000px;} 
+.focus .shadow .title{width: 260px; height: 65px;padding-left: 30px;padding-top: 20px;}
+.focus .shadow .title a{ text-decoration:none; color:#fff;  font-weight:bolder; overflow:hidden; }
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus .btn a:hover,.focus .btn a.current{cursor:pointer;background:#fc114a;}  
+.focus .fPic{ position:absolute; left:0px; top:0px; }  
+.focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:40px; line-height: 40px; background:rgba(0,0,0,0.6);    
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; }  
+.focus .shadow a{ text-decoration:none; color:#fff; font-size:20px; overflow:hidden; margin-left:10px; font-family: "\5FAE\8F6F\96C5\9ED1";}  
+.focus .fcon{ position:relative; width:100%; float:left;  display:none; background:#000  }  
+.focus .fcon img{ display:block; }  
+.focus .fbg{bottom:10px; right:40px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9;}    
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#fc114a;}    
+.focus .D1fBt img{display:none}    
+.focus .D1fBt i{display:none; font-style:normal; }    
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background: url(../images/focus_btn.png) no-repeat;}
+.focus .prev{top:40%; left: 0;background-position:0 -74px; cursor:pointer; }  
+.focus .next{top:40%; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.focus .prev:hover{  background-position:0 0; }  
+.focus .next:hover{  background-position:-40px 0;}
+
+/*内容开始*/
+.Main{ width:1000px; height:auto;overflow:hidden; margin:10px auto 15px auto;}
+.Fpic{}
+/*公司介绍 新闻*/
+.Content{ margin:10px auto; width:1000px;}
+
+.Title{height:38px; background:url(../images/tt.gif) left; line-height:38px; color:#fff; text-indent:38px;  font-family:"黑体"; margin-bottom:10px;}
+
+
+.Title span{ float:right; margin-right:10px; display:inline; text-decoration:underline;}
+.Title a{ color:#fff; }
+
+.text img{ border:solid 1px #cacaca; padding:2px;}
+.text p{padding-top:5px; line-height:25px; }
+
+
+.About{ width:292px; height:auto; float:left;}
+.News{float:left;width:380px; height:auto; border-left:dashed 1px #dddddd; border-right:dashed 1px #dddddd; padding:0 16px 0 16px; margin-left:16px; display:inline;}
+.tuijian{ margin-bottom:15px;}
+.tuijian img{ border:solid 1px #cacaca; padding:2px;}
+.tuijian .left{ width:120px;}
+.tuijian .right{ width:253px;}
+.tuijian .right h3{ font-size:16px;}
+.tuijian .right p{ padding-top:5px;font-size:12px;}
+.tuijian .right p span{ color:#ff9000;}
+.tuijian .right p span a{ color:#ff9000;}
+.news{}
+.news ul li{ line-height:27px; border-bottom:dashed 1px #dddddd; background:url(../images/dot.gif) no-repeat 0 12px; text-indent:7px;}
+.news ul li span{ float:right;}
+.Lianxi{width:262px; height:auto; float:right;}
+
+
+
+
+/*产品列表*/
+.Product{ height:auto; padding:0 0 15px 0;}
+.Chanpin{width:1000px; margin:0 auto 20px auto; overflow:hidden;}
+.Chanpin ul{ width:1100px;}
+.Chanpin li{ width:170px;float:left; margin-right:36px; background:#fff;}
+.Chanpin li img{ border:solid 1px #63F; padding:2px;}
+.Chanpin li span{ display:block; line-height:25px; text-align:center;}
+#demo{ width:1000px; overflow:hidden;}
+#demo p{ text-align:center; background:#dadada;}
+
+
+/*版权信息*/
+.Banquan{ text-align:center; margin:15px auto auto auto;font-size:12px; background:#efefef; padding:15px 0 10px 0;}
